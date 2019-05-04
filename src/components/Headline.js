@@ -15,7 +15,7 @@ const Title = styled.h1`
 
   @media (max-width: 992px) {
     font-size: 45px;
-  }
+  }https://github.chttps://github.com/iRaul/podcasts-repoom/iRaul/podcasts-repo
 `;
 
 const SubTitle = styled.h2`
@@ -32,8 +32,8 @@ const SubTitle = styled.h2`
 
 const Headline = () => (
   <Wrapper>
-    <Title>Podcasts Repo</Title>
-    <SubTitle>A collection of podcasts around the web.</SubTitle>
+    <Title>Fugu.tv</Title>
+    <SubTitle>Tasty Slices of Internet Video, Safely Selected for Kids</SubTitle>
   </Wrapper>
 );
 

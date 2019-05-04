@@ -12,14 +12,13 @@ import Footer from './Footer';
 import Nav from './Nav';
 
 // Data
-import productivity from '../data/productivity';
-import startup from '../data/startup';
-import design from '../data/design';
-import dev from '../data/dev';
+import make from '../data/make';
+import learn from '../data/learn';
+import relax from '../data/relax';
 
 import './Tabs.css';
 
-const all = [...design, ...dev, ...startup];
+const all = [...make, ...learn, ...relax];
 
 randomPodcast(all);
 
@@ -35,10 +34,9 @@ class App extends Component {
           <Tabs>
             <TabList>
               <Tab>All ({all.length})</Tab>
-              <Tab>Design</Tab>
-              <Tab>Dev</Tab>
-              <Tab>Startup</Tab>
-              <Tab>Productivity</Tab>
+              <Tab>Make</Tab>
+              <Tab>Learn</Tab>
+              <Tab>Relax</Tab>
             </TabList>
 
             <TabPanel>
@@ -46,20 +44,18 @@ class App extends Component {
             </TabPanel>
 
             <TabPanel>
-              <PodcastList items={design} />
+              <PodcastList items={make} />
+            </TabPanel>
+
+
+            <TabPanel>
+              <PodcastList items={learn} />
             </TabPanel>
 
             <TabPanel>
-              <PodcastList items={dev} />
+              <PodcastList items={relax} />
             </TabPanel>
 
-            <TabPanel>
-              <PodcastList items={startup} />
-            </TabPanel>
-
-            <TabPanel>
-              <PodcastList items={productivity} />
-            </TabPanel>
           </Tabs>
 
           <Footer />

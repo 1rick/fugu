@@ -17,7 +17,7 @@ const PodcastList = ({ items }) => {
 
   return (
     <>
-      <Input value={filter} onChange={handleFilter} placeholder="Search for Podcasts" />
+      <Input value={filter} onChange={handleFilter} placeholder="Search for Videos" />
 
       <List>
         {filteredItems.map((item, index) => (

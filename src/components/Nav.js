@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import logo from '../static/logo-3.svg';
+import logo from '../static/logo2.png';
 
 const Navbar = styled.nav`
   box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 8px;
@@ -48,7 +48,7 @@ const Nav = () => (
     <div>
       <img src={logo} alt="Logo" />
 
-      <a href="https://github.com/iRaul/podcasts-repo" target="_blank" rel="noopener noreferrer">
+      <a href="#" target="_blank" rel="noopener noreferrer">
         Contribute
       </a>
     </div>
