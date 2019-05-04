@@ -48,7 +48,7 @@ const Nav = () => (
     <div>
       <img src={logo} alt="Logo" />
 
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/1rick/fugu" target="_blank" rel="noopener noreferrer">
         Contribute
       </a>
     </div>
