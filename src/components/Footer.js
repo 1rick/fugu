@@ -21,7 +21,7 @@ const Footer = () => (
   <Wrapper>
     <p>All thumbnails © of their respective owners.</p>
     <p>
-      Page template forked from curated <a href="https://github.com/iRaul/podcasts-repo">podcast page</a> by <a href="https://twitter.com/raul_dronca">Raul Dronca</a>.
+      Page template forked from Raul Dronca's curated <a href="https://github.com/iRaul/podcasts-repo">podcast page</a>. An exercise in curation by <a href="https://twitter.com/1rick">@1rick</a>.
     </p>
   </Wrapper>
 );

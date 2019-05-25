@@ -15,10 +15,11 @@ import Nav from './Nav';
 import make from '../data/make';
 import learn from '../data/learn';
 import relax from '../data/relax';
+import outside from '../data/outside';
 
 import './Tabs.css';
 
-const all = [...make, ...learn, ...relax];
+const all = [...make, ...learn, ...relax, ...outside];
 
 randomPodcast(all);
 
@@ -37,6 +38,7 @@ class App extends Component {
               <Tab>Make</Tab>
               <Tab>Learn</Tab>
               <Tab>Relax</Tab>
+              <Tab>Outside</Tab>
             </TabList>
 
             <TabPanel>
@@ -54,6 +56,10 @@ class App extends Component {
 
             <TabPanel>
               <PodcastList items={relax} />
+            </TabPanel>
+
+             <TabPanel>
+              <PodcastList items={outside} />
             </TabPanel>
 
           </Tabs>

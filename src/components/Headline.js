@@ -15,7 +15,7 @@ const Title = styled.h1`
 
   @media (max-width: 992px) {
     font-size: 45px;
-  }https://github.chttps://github.com/iRaul/podcasts-repoom/iRaul/podcasts-repo
+  }
 `;
 
 const SubTitle = styled.h2`

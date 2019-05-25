@@ -1,8 +1,10 @@
 {
-  "name": "podcasts-repo",
+  "name": "fugu.tv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fugu.tv",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "normalize.css": "8.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -15,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "surge --domain https://podcasts-repo.surge.sh"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

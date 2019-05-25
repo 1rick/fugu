@@ -12,6 +12,12 @@ const make = [
     url: 'https://www.youtube.com/channel/UC2mc6Z1HK2C1gaWbm-9n8Ww',
   },
   {
+    title: 'Artzooka!',
+    description: 'A half hour series blending live action and animation to show kids that art is everywhere!',
+    image: 'https://yt3.ggpht.com/a/AGF-l79c97vycxLfFY3G7J3qW3256_ReCXxaceFL2g=s288-mo-c-c0xffffffff-rj-k-no',
+    url: 'https://www.youtube.com/channel/UC7sblEA7FwjSv7z_TWsYQ6g/videos',
+  },
+  {
     title: 'Happy Folding',
     description: 'A new origami video every Saturday',
     image: 'https://yt3.ggpht.com/a/AGF-l7_FL8VWTUesNbsMR3-ZY275HK7Q-C2jqlJzQA=s288-mo-c-c0xffffffff-rj-k-no',
@@ -30,16 +36,16 @@ const make = [
     url: 'https://www.youtube.com/channel/UCpNZJSP5R0nDW9OWmupUBBA',
   },
   {
-    title: 'Primitive Technology',
-    description: "Build things in the wild completely from scratch using no modern tools or materials.",
-    image: 'https://yt3.ggpht.com/a/AGF-l79ixJhX3qrps2VymdF7R-Mq_z86tUJGHxY8qg=s288-mo-c-c0xffffffff-rj-k-no',
-    url: 'https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA',
-  },
-  {
     title: 'Draw So Cute',
     description: "Learn How To Draw and DIY Craft, with step by step, easy to follow videos",
     image: 'https://yt3.ggpht.com/a/AGF-l7-Vpqs7V5sDZbdHTMtnFvCH09SLd89d6dm2cQ=s48-mo-c-c0xffffffff-rj-k-no',
     url: 'https://www.youtube.com/channel/UC3dEvA1is6-0_yuei9iCdEw',
+  },
+  {
+    title: 'What we do all day',
+    description: "Creative ideas for curious kids. Fun science projects, math art ideas, puzzles, and strategy games. (short)",
+    image: 'https://yt3.ggpht.com/a/AGF-l78DoTWtjNKGXwlI-0iOvr2nr4nRKwitYF_t1Q=s288-mo-c-c0xffffffff-rj-k-no',
+    url: 'https://www.youtube.com/channel/UC-FhcxKQYQFfcUxM5weQGgw',
   },
 ];
 
